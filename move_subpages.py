@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Copyright (C) 2012 Legoktm, Earwig
+Copyright (C) 2012 Legoktm, Earwig, Thine Antique Pen
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the "Software"),
@@ -75,7 +75,7 @@ def main():
         print u'Will log %s --> %s' % (old, new)
         logtext += u'* [[%s]] --> [[%s]] by [[User:%s|]]\n' % (old, new, user)
         for i in done:
-            logtext += u'** [[%s]] --> [[%s]] finished by [[User:Legobot|]]\n' % (i[0], i[1])
+            logtext += u'** [[%s]] --> [[%s]] finished by [[User:TAP Bot|]]\n' % (i[0], i[1])
     if not logtext:
         print u'Nothing was moved, won\'t update the log.'
         return
